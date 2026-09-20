@@ -168,25 +168,9 @@ This project uses the **Real-IAD** industrial anomaly-detection benchmark.
 
 ---
 
-## ⚠️ Research Scope and Limitations
-
-* The current study evaluates **4 of 30 Real-IAD categories**. The selected subset includes diverse product geometries and defect types within the available computational budget.
-* The published Real-IAD PatchCore reference result uses a different evaluation scope—30 categories and a single-view protocol—therefore it is contextual background and **not a directly comparable per-category baseline**.
-* Patch-level anomaly maps can produce coarser masks than fully supervised segmentation.
-* The approach uses score-level fusion and does not yet model explicit 3D geometry or cross-view spatial correspondence.
-
----
-
 ## 📚 Citation
 
-This research implementation is currently being prepared for submission. If you use this repository, please cite it as:
-
-```text
-A. Safari, “Multi-View PatchCore for Real-IAD:
-Industrial Anomaly Detection and Defect Localization
-Using Camera-Specific Memory Banks,” 2026.
-```
-
+This research implementation is currently being prepared for submission.
 ---
 
 <div align="center">
