@@ -98,14 +98,6 @@ The result supports the central idea of the project: defects can be weak or invi
 
 ---
 
-## 🎛️ Fusion Strategy Analysis
-
-The following comparison evaluates a single-view baseline against mean, maximum, and confidence-based five-view fusion strategies. Mean fusion is used as the primary method because it gives the strongest overall image-level result across the evaluated categories.
-
-<img src="assets/fusion_and_single_view_full_comparison.png" alt="Single-view and multi-view fusion analysis" width="100%"/>
-
----
-
 ## 🧩 Qualitative Defect Localization
 
 This PCB example demonstrates five-view localization. Each row represents a synchronized camera view, while the columns show the original image, PatchCore heatmap, predicted mask, ground-truth mask, and heatmap-overlay bounding boxes.
