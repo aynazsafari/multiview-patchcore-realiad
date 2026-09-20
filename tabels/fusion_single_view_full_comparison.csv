@@ -1,0 +1,17 @@
+category,method,is_primary,image_auroc,image_average_precision,image_f1_oracle,pixel_auroc,pixel_average_precision,pixel_f1_oracle,aupro_0.30,mask_iou_oracle,dice_oracle,inference_ms,localization_scope
+transistor1,single_view_baseline_mean_C1_C5,False,0.94191945,0.96852141,0.92133925,0.98859783,0.29996771,0.33306538,0.94846656,0.20106921,0.33306538,8.57471561,mean_of_individual_camera_metrics
+transistor1,five_view_mean,True,0.99366703,0.99651200,0.97647059,0.98849375,0.31806567,0.34442001,0.93795370,0.20803586,0.34442001,43.11402893,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+transistor1,five_view_max,False,0.98090489,0.98859041,0.95841584,0.98849375,0.31806567,0.34442001,0.93795370,0.20803586,0.34442001,43.11402893,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+transistor1,five_view_confidence,False,0.97692073,0.98600074,0.94947569,0.98849375,0.31806567,0.34442001,0.93795370,0.20803586,0.34442001,43.11402893,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+plastic_nut,single_view_baseline_mean_C1_C5,False,0.91937211,0.93858022,0.92587796,0.98075740,0.16154501,0.24096656,0.90667893,0.13772123,0.24096656,8.84722214,mean_of_individual_camera_metrics
+plastic_nut,five_view_mean,True,0.98345817,0.98548576,0.97647059,0.98239514,0.15811670,0.24321623,0.91537011,0.13844403,0.24321623,44.50050735,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+plastic_nut,five_view_max,False,0.92948207,0.92026989,0.94239849,0.98239514,0.15811670,0.24321623,0.91537011,0.13844403,0.24321623,44.50050735,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+plastic_nut,five_view_confidence,False,0.92059761,0.91043650,0.94908742,0.98239514,0.15811670,0.24321623,0.91537011,0.13844403,0.24321623,44.50050735,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+pcb,single_view_baseline_mean_C1_C5,False,0.87244318,0.93388072,0.86712386,0.98643993,0.31354159,0.40758992,0.89893785,0.25621668,0.40758992,8.84158993,mean_of_individual_camera_metrics
+pcb,five_view_mean,True,0.91424282,0.95736371,0.89233754,0.98470100,0.30488933,0.40297782,0.88625836,0.25233076,0.40297782,44.46397400,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+pcb,five_view_max,False,0.88146693,0.93263236,0.88679245,0.98470100,0.30488933,0.40297782,0.88625836,0.25233076,0.40297782,44.46397400,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+pcb,five_view_confidence,False,0.87817656,0.93029102,0.88240828,0.98470100,0.30488933,0.40297782,0.88625836,0.25233076,0.40297782,44.46397400,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+terminalblock,single_view_baseline_mean_C1_C5,False,0.91923298,0.95469225,0.91017298,0.96893332,0.20552724,0.27857232,0.86846818,0.16303410,0.27857232,8.93298988,mean_of_individual_camera_metrics
+terminalblock,five_view_mean,True,0.96633855,0.97977133,0.96165192,0.97518654,0.20376137,0.28492986,0.87206997,0.16613306,0.28492986,44.91310501,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+terminalblock,five_view_max,False,0.94699777,0.96718152,0.94049904,0.97518654,0.20376137,0.28492986,0.87206997,0.16613306,0.28492986,44.91310501,shared_five_view_per_camera_maps_fusion_only_changes_product_score
+terminalblock,five_view_confidence,False,0.94300844,0.96554462,0.93422307,0.97518654,0.20376137,0.28492986,0.87206997,0.16613306,0.28492986,44.91310501,shared_five_view_per_camera_maps_fusion_only_changes_product_score
